@@ -41,5 +41,4 @@ public class Hospital {
     @OneToMany (mappedBy = "hospital")
     private Set<Atendimento > atendimentos;
 
-
 }
